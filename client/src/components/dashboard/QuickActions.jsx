@@ -19,7 +19,7 @@ export default function QuickActions() {
         title="Create Meeting"
         description="Start an instant secure meeting."
         buttonText="Create"
-        onClick={() => navigate("/meeting/new")}
+        onClick={() => navigate("/create-meeting")}
       />
 
       <ActionCard
@@ -27,7 +27,7 @@ export default function QuickActions() {
         title="Join Meeting"
         description="Join using a Meeting ID."
         buttonText="Join"
-        onClick={() => navigate("/meeting/join")}
+        onClick={() => navigate("/join-meeting")}
       />
     </div>
   );
